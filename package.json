@@ -9,10 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "i": "^0.3.7",
     "next": "15.0.2",
     "next-navigation": "^1.0.6",
+    "npm": "^10.9.0",
     "react": "19.0.0-rc-02c0e824-20241028",
-    "react-dom": "19.0.0-rc-02c0e824-20241028"
+    "react-dom": "19.0.0-rc-02c0e824-20241028",
+    "sass": "^1.80.6",
+    "styled": "^1.0.0",
+    "styled-components": "^6.1.13"
   },
   "devDependencies": {
     "eslint": "^8",

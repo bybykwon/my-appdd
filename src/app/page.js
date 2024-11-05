@@ -18,6 +18,7 @@ export default function Home() {
       <Section
         tit="섹션2"
         desc="bbbbb"
+        bg="gray"
       ></Section>
       <Section
         tit="섹션3"
@@ -25,7 +26,7 @@ export default function Home() {
       ></Section>
       <Section
         tit="섹션4"
-        desc="dddddd"
+        bg="gray"
       ></Section>
     </>
   );
