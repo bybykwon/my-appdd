@@ -1,21 +1,32 @@
+import Section from '@/components/layout/Section';
 import Image from 'next/image';
 
 export default function Home() {
   return (
     <>
-      <section className="sec-g">
-        <div className="inner">
-          <h2 className="sec-g__tit">섹션 타이틀</h2>
-          <p className="sec-g__desc">섹션 설명</p>
-          <div className="sec-g__cont">섹션 컨텐츠</div>
-          <a
-            href="#"
-            className="sec-g__more"
-          >
-            섹션 더보기
-          </a>
-        </div>
-      </section>
+      <Section
+        tit="섹션1"
+        desc="aaaaa"
+      >
+        <ul>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+        </ul>
+      </Section>
+      <Section
+        tit="섹션2"
+        desc="bbbbb"
+      ></Section>
+      <Section
+        tit="섹션3"
+        desc="ccccc"
+      ></Section>
+      <Section
+        tit="섹션4"
+        desc="dddddd"
+      ></Section>
     </>
   );
 }
